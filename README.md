@@ -1,7 +1,7 @@
 # Portfolio personnel — WAMD / ENSTA
 
 ## Informations étudiant
-- Nom : à compléter
+- Nom : Tachekort Celine
 - École : Higher National School of Advanced Technologies (ENSTA)
 - Module : WAMD
 - Année universitaire : 2026
@@ -26,5 +26,3 @@ Portfolio personnel responsive présentant mon profil, mes compétences, mes pro
 ## Lancer le projet
 Ouvrir `index.html` dans un navigateur ou utiliser l'extension Live Server de VS Code.
 
-## Personnalisation
-Remplacer « Prénom Nom », compléter les informations de formation, ajouter les liens personnels et ne lister que les compétences/certifications réellement acquises.
