@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Portfolio de Celine Tachekort, étudiante en informatique à l'ENSTA, intéressée par l'intelligence artificielle, le développement web et la cybersécurité."
+  >
+
+  <title>Celine Tachekort | Portfolio ENSTA</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+
+      <a class="logo" href="#home">Celine<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+        <li><a href="#education">Parcours</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== ACCUEIL ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-inner container">
+
+        <div class="hero-copy">
+
+          <p class="eyebrow">Bienvenue sur mon portfolio</p>
+
+          <h1>
+            Bonjour, je suis<br>
+            <span class="accent-text">Celine Tachekort</span>
+          </h1>
+
+          <h2>Étudiante en informatique | IA &amp; Développement Web</h2>
+
+          <p class="hero-description">
+            Étudiante à l'École Nationale Supérieure de Technologie
+            Avancée (ENSTA), passionnée par le développement web,
+            l'intelligence artificielle et la cybersécurité.
+            Je conçois des projets modernes, utiles et sécurisés.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary">
+              Voir mes projets
+            </a>
+
+            <a href="#contact" class="button button-outline">
+              Me contacter
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-visual" aria-label="Photo de profil">
+
+          <div class="portrait-ring">
+            <div class="portrait-placeholder">
+              <img
+                src="images/profile.jpg"
+                alt="Photo de profil"
+              >
+            </div>
+          </div>
+
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== À PROPOS ==================== -->
+    <section class="section container" id="about">
+
+      <p class="section-kicker">Qui suis-je ?</p>
+
+      <h2>À propos de moi</h2>
+
+      <p class="section-intro">
+        Je développe progressivement mes compétences en programmation
+        et en conception d'applications. Mon objectif est de créer
+        des solutions numériques qui associent qualité logicielle,
+        intelligence artificielle et sécurité.
+      </p>
+
+    </section>
+
+    <!-- ==================== COMPÉTENCES ==================== -->
+    <section class="section section-tinted" id="skills">
+      <div class="container">
+
+        <p class="section-kicker">Ce que j'apprends</p>
+
+        <h2>Mes compétences</h2>
+
+        <div class="card-grid">
+
+          <article class="info-card">
+            <div class="card-icon">⌘</div>
+            <h3>Développement web</h3>
+            <p>
+              HTML, CSS, JavaScript et création d'interfaces
+              web responsive.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">〈〉</div>
+            <h3>Programmation</h3>
+            <p>
+              Python, Java et bases de la programmation
+              orientée objet.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">✦</div>
+            <h3>IA &amp; données</h3>
+            <p>
+              Premiers projets de machine learning,
+              intelligence artificielle et analyse de données.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">◇</div>
+            <h3>Systèmes &amp; sécurité</h3>
+            <p>
+              Notions de réseaux, bases de données
+              et cybersécurité.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJETS ==================== -->
+    <section class="section container" id="projects">
+
+      <p class="section-kicker">Réalisations</p>
+
+      <h2>Mes projets</h2>
+
+      <div class="card-grid">
+
+        <!-- 1. AIRA -->
+        <article class="info-card project-card">
+          <span class="project-label">Assistant intelligent</span>
+
+          <h3>AIRA — Chatbot</h3>
+
+          <p>
+            Prototype d'assistant conversationnel conçu pour
+            guider les utilisateurs dans la résolution de questions
+            et de problèmes informatiques.
+          </p>
+
+          <p class="tech-list">
+            HTML · CSS · JavaScript · API
+          </p>
+        </article>
+
+        
+<!-- CodeBattle -->
+<article class="info-card project-card">
+  <span class="project-label">Plateforme collaborative</span>
+
+  <h3>CodeBattle</h3>
+
+  <p>
+    Plateforme collaborative permettant aux étudiants de progresser
+    en programmation et de développer leurs compétences à travers
+    des challenges collectifs, favorisant l'apprentissage,
+    l'entraide et le travail en équipe.
+  </p>
+
+  <p class="tech-list">
+    React Native · php . sql
+  </p>
+</article>
+
+
+        <!-- 3. Titanic Prediction -->
+        <article class="info-card project-card">
+          <span class="project-label">Machine learning</span>
+
+          <h3>Titanic Prediction</h3>
+
+          <p>
+            Dashboard interactif permettant d'explorer les données
+            Titanic et d'étudier la prédiction de la survie
+            à partir de caractéristiques des passagers.
+          </p>
+
+          <p class="tech-list">
+            Python · Streamlit · Pandas
+          </p>
+        </article>
+
+        <!-- 4. Vote électronique sécurisé -->
+        <article class="info-card project-card">
+          <span class="project-label">Sécurité &amp; cryptographie</span>
+
+          <h3>Vote électronique sécurisé</h3>
+
+          <p>
+            Projet académique explorant les mécanismes
+            cryptographiques, les signatures numériques,
+            le hachage et la sécurité du vote électronique.
+          </p>
+
+          <p class="tech-list">
+            Python · RSA · SQLite
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==================== PARCOURS ==================== -->
+    <section class="section section-tinted" id="education">
+      <div class="container">
+
+        <p class="section-kicker">Mon parcours</p>
+
+        <h2>Formation &amp; expérience</h2>
+
+        <div class="timeline">
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+
+            <p class="timeline-date">Formation</p>
+
+            <h3>ENSTA — Informatique</h3>
+
+            <p>
+              Formation en informatique à l'École Nationale
+              Supérieure de Technologie Avancée, avec un intérêt
+              particulier pour l'intelligence artificielle,
+              le développement logiciel et la sécurité des systèmes.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+
+            <p class="timeline-date">5–9 avril 2026</p>
+
+            <h3>Air Algérie — Stage de découverte à la DSI de Air Algérie </h3>
+
+            <p>
+              Découverte des systèmes d'information, des réseaux,
+              des bases de données, des équipes de cybersécurité
+              et des applications de l'intelligence artificielle
+              dans un environnement professionnel.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS ==================== -->
+    <section class="section container" id="certifications">
+
+      <p class="section-kicker">Apprentissage continu</p>
+
+      <h2>Mes certifications</h2>
+
+      <p class="section-intro">
+        Des formations en ligne qui renforcent mes compétences
+        en intelligence artificielle, programmation, data science,
+        UX/UI, bases de données, réseaux et cybersécurité.
+      </p>
+
+      <div class="card-grid">
+
+        <!-- 1. IBM - Tools for Data Science -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/IU499WUG7IWU"
+            alt="Certificat Tools for Data Science"
+            loading="lazy">
+
+          <h3>Tools for Data Science</h3>
+          <p class="certificate-issuer">IBM</p>
+          <p>Terminé en septembre 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/IU499WUG7IWU"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 2. Meta - UX/UI -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/MHBTNL4K169P"
+            alt="Certificat Principles of UX/UI Design"
+            loading="lazy">
+
+          <h3>Principles of UX/UI Design</h3>
+          <p class="certificate-issuer">Meta</p>
+          <p>Terminé en septembre 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/MHBTNL4K169P"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 3. Networking -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/79VZO7VWMHRK"
+            alt="Certificat CCNA Networking Basics, Switching, Addressing, and Routing"
+            loading="lazy">
+
+          <h3>CCNA: Networking Basics, Switching, Addressing, and Routing</h3>
+          <p class="certificate-issuer">Logical Operations</p>
+          <p>Terminé en septembre 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/79VZO7VWMHRK"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 4. IBM - Machine Learning -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/FYB42CWQR6TK"
+            alt="Certificat Machine Learning with Python"
+            loading="lazy">
+
+          <h3>Machine Learning with Python</h3>
+          <p class="certificate-issuer">IBM</p>
+          <p>Terminé en septembre 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/FYB42CWQR6TK"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 5. IBM - Python for Data Science -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/LOH505TSLKTV"
+            alt="Certificat Python for Data Science, AI and Development"
+            loading="lazy">
+
+          <h3>Python for Data Science, AI &amp; Development</h3>
+          <p class="certificate-issuer">IBM</p>
+          <p>Terminé en septembre 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/LOH505TSLKTV"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 6. IBM - Introduction to AI -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/CMO0X6FPR14V"
+            alt="Certificat Introduction to Artificial Intelligence"
+            loading="lazy">
+
+          <h3>Introduction to Artificial Intelligence (AI)</h3>
+          <p class="certificate-issuer">IBM</p>
+          <p>Terminé en septembre 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/CMO0X6FPR14V"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 7. Microsoft - SQL Foundations -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/4AH6FU9A24NF"
+            alt="Certificat SQL Foundations"
+            loading="lazy">
+
+          <h3>SQL Foundations</h3>
+          <p class="certificate-issuer">Microsoft</p>
+          <p>Terminé en août 2026</p>
+
+          <a
+            class="certificate-link"
+            href="https://www.coursera.org/account/accomplishments/verify/4AH6FU9A24NF"
+            target="_blank"
+            rel="noopener noreferrer">
+            Voir le certificat ↗
+          </a>
+        </article>
+
+        <!-- 8. Security Operations Center -->
+        <article class="info-card certificate-card">
+          <img
+            src="https://coursera-certificate-images.s3.amazonaws.com/DITUOOXIM0JV"
+            alt="Certificat Security Operations Center SOC"
+            loading="lazy">
+
+          <h3>Security Operations Center (SOC)</h3>
+          <p class="certificate-issuer">Cybersécurité</p>
+          <p>Formation en sécurité informatique</p>
+        </article>
+
+        
+<!-- 9. Entrepreneurship and Business Management -->
+<article class="info-card certificate-card">
+
+  <div class="card-icon">🎓</div>
+
+  <h3>Entrepreneurship and Business Management Training</h3>
+
+  <p class="certificate-issuer">Entrepreneuriat &amp; gestion d'entreprise</p>
+
+  <p>Certificate of Participation</p>
+
+  <p>
+    Participation à une formation consacrée à l'entrepreneuriat
+    et au management d'entreprise.
+  </p>
+
+  <a
+    class="certificate-link"
+    href="images/certificates/Celine-Tachekort.pdf"
+    target="_blank"
+    rel="noopener noreferrer">
+    Voir le certificat ↗
+  </a>
+
+</article>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+
+        <div>
+          <p class="section-kicker">Entrons en contact</p>
+
+          <h2>Me contacter</h2>
+
+          <p class="section-intro">
+            Tu peux me contacter pour discuter de projets,
+            d'informatique ou d'opportunités académiques.
+          </p>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer">
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+
+          <label for="name">Nom</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Ton nom"
+            required>
+
+          <label for="email">Adresse e-mail</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="nom@exemple.com"
+            required>
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Écris ton message..."
+            required></textarea>
+
+          <button class="button button-primary" type="submit">
+            Envoyer le message
+          </button>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== PIED DE PAGE ==================== -->
+  <footer class="site-footer">
+    <p>
+      © <span id="year"></span>
+      Celine Tachekort · Réalisé avec HTML, CSS &amp; JavaScript
+    </p>
+  </footer>
+
+</body>
+</html>
