@@ -39,66 +39,24 @@ if (yearElement) {
 }
 
 // ================================
-// FORMULAIRE DE CONTACT - EMAILJS
+// FORMULAIRE DE CONTACT - DÉMONSTRATION
 // ================================
 
 const contactForm = document.getElementById("contact-form");
 const formStatus = document.getElementById("form-status");
 
-// Remplace ces trois valeurs par celles de ton compte EmailJS.
-const EMAILJS_PUBLIC_KEY = "VzYTA_D02C_u6oBk9";
-const EMAILJS_SERVICE_ID = "service_16lcc7n";
-const EMAILJS_TEMPLATE_ID = "template_d1hm4ts";
-
 if (contactForm && formStatus) {
-  contactForm.addEventListener("submit", async (event) => {
+  contactForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    // Vérifier que la bibliothèque EmailJS est chargée.
-    if (typeof emailjs === "undefined") {
-      formStatus.textContent =
-        "Erreur : le service d'envoi n'est pas chargé. Recharge la page ou vérifie la configuration.";
+    if (!contactForm.checkValidity()) {
+      contactForm.reportValidity();
       return;
     }
 
+    formStatus.textContent =
+      "Merci ! Ton formulaire a bien été rempli. Ceci est une démonstration : aucun e-mail n'a été envoyé.";
 
-
-    const submitButton = contactForm.querySelector(
-      'button[type="submit"], input[type="submit"]'
-    );
-
-    formStatus.textContent = "Envoi du message en cours...";
-
-    if (submitButton) {
-      submitButton.disabled = true;
-    }
-
-    try {
-      // Initialiser EmailJS avec la clé publique.
-      emailjs.init({
-        publicKey: EMAILJS_PUBLIC_KEY
-      });
-
-      // Envoyer les champs du formulaire au modèle EmailJS.
-      await emailjs.sendForm(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        contactForm
-      );
-
-      formStatus.textContent =
-        "Merci ! Ton message a été envoyé avec succès.";
-
-      contactForm.reset();
-    } catch (error) {
-      console.error("Erreur lors de l'envoi EmailJS :", error);
-
-      formStatus.textContent =
-        "L'envoi a échoué. Vérifie ta connexion et ta configuration EmailJS, puis réessaie.";
-    } finally {
-      if (submitButton) {
-        submitButton.disabled = false;
-      }
-    }
+    contactForm.reset();
   });
 }
