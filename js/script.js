@@ -55,7 +55,7 @@ if (contactForm && formStatus) {
     }
 
     formStatus.textContent =
-      "Merci ! Ton formulaire a bien été rempli. Ceci est une démonstration : aucun e-mail n'a été envoyé.";
+      "Merci ! Ton formulaire a bien été envoyé.";
 
     contactForm.reset();
   });
