@@ -50,7 +50,7 @@ portfolio_ensta/
 ## 6. Liens du projet
 
 - **Dépôt GitHub :** https://github.com/celina331/celine-portfolio
-- **Portfolio en ligne :** https://celine-portfolio-1yew927ro-celine15.vercel.app/
+- **Portfolio en ligne :** https://celine-portfolio-ura6.vercel.app/
 
 ## 7. Conclusion
 
