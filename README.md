@@ -1,28 +1,57 @@
-# Portfolio personnel — WAMD / ENSTA
+# Portfolio Personnel — ENSTA
 
-## Informations étudiant
-- Nom : Tachekort Celine
-- École : Higher National School of Advanced Technologies (ENSTA)
-- Module : WAMD
-- Année universitaire : 2026
+**Étudiante :** Celine Tachekort  
+**Établissement :** École Nationale Supérieure de Technologie Avancée (ENSTA)  
+**Module :** WAMD — Web Application Development  
+**Année universitaire :** 2026–2027
 
-## Description
-Portfolio personnel responsive présentant mon profil, mes compétences, mes projets, ma formation et mes moyens de contact.
+## 1. Présentation du projet
 
-## Technologies
-- HTML5
-- CSS3
-- JavaScript
-- Visual Studio Code
-- Chrome DevTools
+Ce projet consiste à concevoir et développer un portfolio personnel responsive en utilisant HTML, CSS et JavaScript.
 
-## Fonctionnalités
-- Navigation entre sections
-- Design responsive ordinateur/tablette/smartphone
-- Menu mobile interactif
-- Formulaire de contact en démonstration côté navigateur
-- Année automatique dans le pied de page
+Il présente mon parcours académique, mes compétences techniques, mes projets informatiques, mes certifications et mon expérience professionnelle.
 
-## Lancer le projet
-Ouvrir `index.html` dans un navigateur ou utiliser l'extension Live Server de VS Code.
+## 2. Technologies utilisées
 
+- **HTML5** : structure et contenu des pages.
+- **CSS3** : mise en page, design responsive et animations.
+- **JavaScript** : interactions, navigation mobile et fonctionnalités dynamiques.
+- **Git et GitHub** : gestion de versions et hébergement du code source.
+- **GitHub Pages / Vercel** : déploiement du site web.
+
+## 3. Fonctionnalités réalisées
+
+- Présentation personnelle et parcours académique.
+- Affichage des compétences techniques.
+- Présentation des projets informatiques.
+- Section consacrée aux certifications.
+- Navigation responsive adaptée aux appareils mobiles.
+- Formulaire de contact.
+
+## 4. Structure du projet
+
+```text
+portfolio_ensta/
+├── .vscode/
+│   └── settings.json
+├── css/
+│   └── style.css
+├── images/
+│   ├── certificats/
+│   └── profile.jpg
+├── js/
+│   └── script.js
+├── index.html
+└── README.md
+```
+
+
+
+## 6. Liens du projet
+
+- **Dépôt GitHub :** https://github.com/celina331/celine-portfolio
+- **Portfolio en ligne :** https://celine-portfolio-1yew927ro-celine15.vercel.app/
+
+## 7. Conclusion
+
+Ce projet m'a permis de mettre en pratique les notions de développement web, de structuration HTML, de stylisation CSS, de programmation JavaScript, de responsive design et de gestion de versions avec Git et GitHub.
